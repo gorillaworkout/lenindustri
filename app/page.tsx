@@ -69,14 +69,15 @@ export default function Home() {
         className="relative h-screen flex items-center justify-center overflow-hidden bg-black text-white"
       >
         <motion.div className="absolute inset-0 z-0 w-full h-full" style={{ opacity }}>
-          <div className="relative w-full h-full">
-            <Image
-              src="/placeholder.svg?height=1080&width=1920"
-              alt="Hero background"
-              fill
-              className="object-cover opacity-60"
-              priority
-            />
+          <div className="relative w-full h-full pointer-events-none">
+            <iframe
+              src="https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=1&loop=1&playlist=V_Btofw8dLI"
+              title="Background Video"
+              className="absolute top-0 left-0 w-full h-full object-cover"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </motion.div>
 
@@ -140,7 +141,7 @@ export default function Home() {
             </button>
             <div className="w-full h-full">
               <iframe
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=1&showinfo=0&rel=0"
+                src="https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI"
                 title="PT LEN Industri Showcase"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -150,6 +151,7 @@ export default function Home() {
           </div>
         </div>
       )}
+
 
       {/* Featured Products Section */}
       <section id="products" className="py-20 bg-gradient-to-b from-black to-gray-900 text-white">

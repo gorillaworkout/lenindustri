@@ -8,7 +8,7 @@ export const products = [
       "Advanced radar system with long-range detection capabilities. The X-500 represents the pinnacle of modern radar technology, offering unparalleled detection range and accuracy in all weather conditions. Designed for military and civil applications, this system integrates seamlessly with existing defense infrastructure.\n\nKey Features:\n- Detection range up to 500km\n- Advanced signal processing for clutter reduction\n- All-weather operation capability\n- Integrated IFF (Identification Friend or Foe)\n- Low probability of intercept\n- Rapid deployment and setup\n\nThe X-500 has been field-tested in the most demanding environments and proven its reliability and performance. Its modular design allows for easy upgrades and maintenance, ensuring a long operational life with minimal downtime.",
     image: "/placeholder.svg?height=400&width=600",
     price: 250000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Long-range detection up to 500km",
       "All-weather operation capability",
@@ -62,7 +62,7 @@ export const products = [
       "Secure communication module for military and government applications. The CM-200 provides encrypted, reliable communications across multiple channels and frequencies. Designed with security as the primary focus, this module ensures that sensitive information remains protected from interception and tampering.\n\nKey Features:\n- Military-grade encryption\n- Multi-channel operation\n- Frequency hopping capability\n- Jam-resistant technology\n- Compact and ruggedized design\n- Interoperable with NATO standards\n\nThe CM-200 has been adopted by defense forces worldwide for its exceptional security features and reliability in challenging environments. Its advanced technology ensures clear communication even in areas with significant electromagnetic interference.",
     image: "/placeholder.svg?height=400&width=600",
     price: 75000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Military-grade encryption",
       "Multi-channel operation",
@@ -116,7 +116,7 @@ export const products = [
       "Intelligent railway signaling system for improved safety and efficiency. This comprehensive system integrates advanced sensors, real-time monitoring, and automated controls to ensure the safe and efficient operation of railway networks. Designed to meet international safety standards, our system significantly reduces the risk of accidents while optimizing traffic flow.\n\nKey Features:\n- Real-time train position monitoring\n- Automatic train protection\n- Centralized traffic management\n- Predictive maintenance capabilities\n- Scalable architecture\n- Redundant safety systems\n\nOur Railway Signaling System has been implemented in major railway networks across Asia and Europe, demonstrating its reliability and effectiveness in diverse operational environments.",
     image: "/placeholder.svg?height=400&width=600",
     price: 120000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time train position monitoring",
       "Automatic train protection",
@@ -170,7 +170,7 @@ export const products = [
       "Comprehensive energy management solution for industrial applications. Our Smart Energy Management system optimizes energy consumption, reduces operational costs, and minimizes environmental impact. Using advanced analytics and AI, the system continuously monitors energy usage patterns and automatically adjusts settings to achieve optimal efficiency.\n\nKey Features:\n- Real-time energy monitoring\n- AI-driven optimization\n- Peak demand management\n- Renewable energy integration\n- Detailed analytics and reporting\n- Remote management capabilities\n\nImplementing our Smart Energy Management system typically results in 15-30% reduction in energy costs while improving operational reliability and reducing carbon footprint.",
     image: "/placeholder.svg?height=400&width=600",
     price: 85000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time energy monitoring",
       "AI-driven optimization",
@@ -224,7 +224,7 @@ export const products = [
       "Autonomous surveillance drone with advanced imaging capabilities. The X-Wing tactical drone provides real-time intelligence, surveillance, and reconnaissance in challenging environments. With extended flight time and sophisticated sensor packages, it delivers critical information to operators while maintaining a low acoustic and visual signature.\n\nKey Features:\n- 4-hour flight endurance\n- Encrypted data transmission\n- Thermal and optical imaging\n- Autonomous mission execution\n- Rapid deployment capability\n- Weather-resistant design\n\nThe X-Wing has been field-tested in diverse operational scenarios and proven to be a reliable asset for security forces and defense organizations worldwide.",
     image: "/placeholder.svg?height=400&width=600",
     price: 95000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "4-hour flight endurance",
       "Encrypted data transmission",
@@ -279,7 +279,7 @@ export const products = [
       "High-bandwidth satellite communication system for remote operations. This terminal provides reliable connectivity in areas without conventional telecommunications infrastructure. Designed for rapid deployment and ease of use, it enables high-speed data transfer, voice communications, and video conferencing in challenging environments.\n\nKey Features:\n- Auto-acquiring satellite link\n- High-throughput data transfer\n- Multiple frequency band support\n- Ruggedized for field operations\n- Simple user interface\n- Low power consumption\n\nOur Satellite Communication Terminal is trusted by humanitarian organizations, remote industrial operations, and defense forces for mission-critical communications worldwide.",
     image: "/placeholder.svg?height=400&width=600",
     price: 180000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Auto-acquiring satellite link",
       "High-throughput data transfer",
@@ -333,7 +333,7 @@ export const products = [
     description: "AI-powered traffic management system for urban environments",
     image: "/placeholder.svg?height=400&width=600",
     price: 135000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time traffic monitoring",
       "Adaptive signal control",
@@ -358,7 +358,7 @@ export const products = [
     description: "Complete solution for integrating solar power into existing infrastructure",
     image: "/placeholder.svg?height=400&width=600",
     price: 110000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Modular design for scalability",
       "Advanced power conversion",
@@ -383,7 +383,7 @@ export const products = [
     description: "Integrated security system for critical infrastructure protection",
     image: "/placeholder.svg?height=400&width=600",
     price: 215000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Multi-sensor fusion technology",
       "AI-powered threat detection",
@@ -408,7 +408,7 @@ export const products = [
     description: "Complete 5G network deployment solution for urban and rural areas",
     image: "/placeholder.svg?height=400&width=600",
     price: 320000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Scalable architecture",
       "Virtualized network functions",
@@ -433,7 +433,7 @@ export const products = [
     description: "Next-generation autonomous control system for railway operations",
     image: "/placeholder.svg?height=400&width=600",
     price: 275000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Fully autonomous operation capability",
       "Precision stopping and acceleration",
@@ -458,7 +458,7 @@ export const products = [
     description: "Advanced control system for managing distributed energy resources",
     image: "/placeholder.svg?height=400&width=600",
     price: 95000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time load balancing",
       "Renewable energy prioritization",
@@ -483,7 +483,7 @@ export const products = [
     description: "Sonar-based detection system for maritime security applications",
     image: "/placeholder.svg?height=400&width=600",
     price: 185000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Long-range detection capabilities",
       "Automatic target recognition",
@@ -508,7 +508,7 @@ export const products = [
     description: "Resilient communication network for disaster response scenarios",
     image: "/placeholder.svg?height=400&width=600",
     price: 145000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Rapid deployment capability",
       "Self-contained power supply",
@@ -533,7 +533,7 @@ export const products = [
     description: "Precision navigation and guidance system for airport operations",
     image: "/placeholder.svg?height=400&width=600",
     price: 230000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "All-weather operation capability",
       "Real-time aircraft tracking",
@@ -558,7 +558,7 @@ export const products = [
     description: "AI-driven system for optimizing energy usage in manufacturing facilities",
     image: "/placeholder.svg?height=400&width=600",
     price: 125000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time energy monitoring",
       "Machine learning optimization",
@@ -583,7 +583,7 @@ export const products = [
     description: "Comprehensive cybersecurity solution for critical infrastructure",
     image: "/placeholder.svg?height=400&width=600",
     price: 195000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time threat monitoring",
       "Anomaly detection and prevention",
@@ -608,7 +608,7 @@ export const products = [
     description: "Secure gateway for industrial IoT device management and data collection",
     image: "/placeholder.svg?height=400&width=600",
     price: 85000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Multi-protocol support",
       "Edge computing capability",
@@ -633,7 +633,7 @@ export const products = [
     description: "Integrated system for monitoring and managing maritime vessel traffic",
     image: "/placeholder.svg?height=400&width=600",
     price: 165000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time vessel tracking",
       "Traffic flow optimization",
@@ -658,7 +658,7 @@ export const products = [
     description: "Complete solution for optimizing wind farm operations and maintenance",
     image: "/placeholder.svg?height=400&width=600",
     price: 140000,
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time performance monitoring",
       "Predictive maintenance",

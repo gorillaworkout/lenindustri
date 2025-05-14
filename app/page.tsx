@@ -34,6 +34,7 @@ export default function Home() {
       (el as any).msRequestFullscreen();
     }
   }
+  
   useEffect(() => {
     // Simulate page loading
     const timer = setTimeout(() => {
@@ -151,7 +152,7 @@ export default function Home() {
       {/* Video Modal */}
       {showVideoModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90">
-          <div className="relative w-full h-full max-w-7xl max-h-[90vh] mx-4">
+          <div className="relative w-full h-full">
             <button
               onClick={() => setShowVideoModal(false)}
               className="absolute top-4 right-4 z-10 bg-black bg-opacity-50 rounded-full p-2 text-white hover:bg-opacity-70 transition-colors"

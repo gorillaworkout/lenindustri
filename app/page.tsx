@@ -22,6 +22,18 @@ export default function Home() {
 
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
+  const openFullscreen = () => {
+    const el = document.documentElement;
+    if (el.requestFullscreen) {
+      el.requestFullscreen();
+    } else if ((el as any).webkitRequestFullscreen) {
+      // Safari
+      (el as any).webkitRequestFullscreen();
+    } else if ((el as any).msRequestFullscreen) {
+      // IE11
+      (el as any).msRequestFullscreen();
+    }
+  }
   useEffect(() => {
     // Simulate page loading
     const timer = setTimeout(() => {
@@ -111,6 +123,14 @@ export default function Home() {
               >
                 <Play className="mr-2 h-4 w-4" />
                 Watch Company Video
+              </Button>
+                <Button
+                size="lg"
+                className="group"
+                 onClick={openFullscreen}
+              >
+                Full Screen
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </div>
           </motion.div>

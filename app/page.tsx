@@ -128,7 +128,7 @@ export default function Home() {
                 <Button
                 size="lg"
                 className="group"
-                 onClick={openFullscreen}
+                onClick={openFullscreen}
               >
                 Full Screen
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

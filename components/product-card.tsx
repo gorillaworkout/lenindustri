@@ -1,41 +1,54 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { motion } from "framer-motion"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowRight } from "lucide-react"
+import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
-import { Button } from "@/components/ui/button"
-import { formatCurrency } from "@/lib/utils"
+import { Button } from "@/components/ui/button";
+import { formatCurrency } from "@/lib/utils";
+import GlbViewer from "./ui/glbviewer";
+import { useGLTF } from '@react-three/drei'
+import { useFrame, useLoader } from '@react-three/fiber'
+import { GLTFLoader } from 'three-stdlib'
+import * as THREE from "three";
 
 export default function ProductCard({ product, index }) {
-  const [isHovered, setIsHovered] = useState(false)
+  console.log(product, 'product byu')
+  const [isHovered, setIsHovered] = useState(false);
+
+  useEffect(()=>{
+  console.log(isHovered, 'hovered')
+  },[isHovered])
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: index * 0.1 > 0.5 ? 0.5 : index * 0.1 }}
+      transition={{
+        duration: 0.5,
+        delay: index * 0.1 > 0.5 ? 0.5 : index * 0.1,
+      }}
       viewport={{ once: true, margin: "-100px" }}
       className="group"
     >
       <Link href={`/products/${product.id}`}>
         <div
-          className="bg-gray-800 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20 transform hover:-translate-y-2"
+          className="rounded-xl overflow-hidden relative transition-all duration-300 hover:shadow-xl  transform hover:-translate-y-2 bg-transparent"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
           <div className="relative h-48 overflow-hidden">
-            <motion.div
-              animate={{
-                scale: isHovered ? 1.08 : 1,
-                y: isHovered ? -5 : 0,
-              }}
-              transition={{ duration: 0.4 }}
-            >
-              <Image src={product.image || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
-            </motion.div>
+               <motion.div
+                  whileHover={{ scale: 1.08, y: -5 }}
+                  transition={{ duration: 0.4 }}
+                  className="h-full"
+                >
+                  <GlbViewer modelPath={product.image} />
+                </motion.div>
+
+
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
             <motion.div
@@ -51,10 +64,17 @@ export default function ProductCard({ product, index }) {
           </div>
 
           <div className="p-4">
-            <div className="text-xs font-medium text-blue-400 mb-1">{product.category}</div>
-            <h3 className="font-bold text-lg mb-2 group-hover:text-blue-400 transition-colors">{product.name}</h3>
-            <p className="text-gray-400 text-sm mb-3 line-clamp-2">{product.description}</p>
-            <motion.div
+            <div className="text-xs font-medium text-blue-400 mb-1">
+               <p>{product.image}</p>
+              {product.category}
+            </div>
+            <h3 className="font-bold text-lg mb-2 group-hover:text-blue-400 transition-colors">
+              {product.name}
+            </h3>
+            <p className="text-gray-400 text-sm mb-3 line-clamp-2">
+              {product.description}
+            </p>
+            {/* <motion.div
               className="font-bold"
               animate={{
                 scale: isHovered ? 1.05 : 1,
@@ -63,7 +83,7 @@ export default function ProductCard({ product, index }) {
               transition={{ duration: 0.3 }}
             >
               {formatCurrency(product.price)}
-            </motion.div>
+            </motion.div> */}
           </div>
 
           {/* Add a subtle glow effect on hover */}
@@ -78,5 +98,5 @@ export default function ProductCard({ product, index }) {
         </div>
       </Link>
     </motion.div>
-  )
+  );
 }

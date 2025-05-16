@@ -65,7 +65,6 @@ export default function ProductCard({ product, index }) {
 
           <div className="p-4">
             <div className="text-xs font-medium text-blue-400 mb-1">
-               <p>{product.image}</p>
               {product.category}
             </div>
             <h3 className="font-bold text-lg mb-2 group-hover:text-blue-400 transition-colors">

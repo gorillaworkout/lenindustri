@@ -43,7 +43,7 @@ export default function GlbViewer({ modelPath }: { modelPath: string }) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Canvas camera={{ position: [0, 0, 3] }}>
+      <Canvas camera={{ position: [0, 0, 5] }}>
         <ambientLight intensity={1.5} />
         <Suspense fallback={null}>
           <Model url={modelPath}  />

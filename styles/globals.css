@@ -10,6 +10,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .bg-product-card {
+    background-image: url('https://www.len.co.id/wp-content/uploads/2023/08/Elegant-scaled.jpg');
+  }
 }
 
 @layer base {
@@ -90,5 +93,9 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  .bg-product-card {
+    background-image: url('https://www.len.co.id/wp-content/uploads/2023/08/Elegant-scaled.jpg');
   }
 }

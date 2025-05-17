@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button"
 import PageTransition from "@/components/page-transition"
 import ProductCard from "@/components/product-card"
 import { products } from "@/data/products"
-
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
   const [visibleProducts, setVisibleProducts] = useState(9)
@@ -175,7 +174,7 @@ export default function Home() {
 
 
       {/* Featured Products Section */}
-      <section id="products" className="py-20 bg-gradient-to-b from-black to-gray-900 text-white">
+      <section id="products" className="py-20 bg-white text-white bg-[url('https://www.len.co.id/wp-content/uploads/2023/08/Elegant-scaled.jpg')] bg-cover">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -184,8 +183,8 @@ export default function Home() {
             viewport={{ once: true, margin: "-100px" }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Our Featured Products</h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-red-700">Our Featured Products</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Discover our cutting-edge solutions designed to meet the most demanding requirements
             </p>
           </motion.div>
@@ -210,7 +209,7 @@ export default function Home() {
                 onClick={loadMoreProducts}
                 variant="outline"
                 size="lg"
-                className="group border-blue-500 text-blue-400 hover:bg-blue-500/10"
+                className="group bg-red-700 border-red-700 text-white hover:bg-red-700/10 hover:text-red-700"
               >
                 <Plus className="mr-2 h-5 w-5" />
                 Load More Products

@@ -6,9 +6,10 @@ export const products = [
     category: "Defense",
     description:
       "Advanced radar system with long-range detection capabilities. The X-500 represents the pinnacle of modern radar technology, offering unparalleled detection range and accuracy in all weather conditions. Designed for military and civil applications, this system integrates seamlessly with existing defense infrastructure.\n\nKey Features:\n- Detection range up to 500km\n- Advanced signal processing for clutter reduction\n- All-weather operation capability\n- Integrated IFF (Identification Friend or Foe)\n- Low probability of intercept\n- Rapid deployment and setup\n\nThe X-500 has been field-tested in the most demanding environments and proven its reliability and performance. Its modular design allows for easy upgrades and maintenance, ensuring a long operational life with minimal downtime.",
-    image: "/models/low_poly_toon_plane.glb",
+    image: "/models/ms_1_light_tank.glb",
     price: 250000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Long-range detection up to 500km",
       "All-weather operation capability",
@@ -17,14 +18,14 @@ export const products = [
       "Low probability of intercept",
       "Modular design for easy upgrades",
     ],
-    specifications: {
-      "Operating Frequency": "X-Band",
-      "Power Output": "25kW peak",
-      "Detection Range": "500km",
-      Weight: "1200kg",
-      Dimensions: "3.2m x 2.5m x 2.1m",
-      "Power Requirements": "3-phase, 400V, 50Hz",
-    },
+     specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
     storyline: {
       title: "The Evolution of Modern Radar Technology",
       subtitle: "How the X-500 is Redefining Defense Capabilities",
@@ -62,7 +63,8 @@ export const products = [
       "Secure communication module for military and government applications. The CM-200 provides encrypted, reliable communications across multiple channels and frequencies. Designed with security as the primary focus, this module ensures that sensitive information remains protected from interception and tampering.\n\nKey Features:\n- Military-grade encryption\n- Multi-channel operation\n- Frequency hopping capability\n- Jam-resistant technology\n- Compact and ruggedized design\n- Interoperable with NATO standards\n\nThe CM-200 has been adopted by defense forces worldwide for its exceptional security features and reliability in challenging environments. Its advanced technology ensures clear communication even in areas with significant electromagnetic interference.",
     image: "/models/low_poly_toon_plane.glb",
     price: 75000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Military-grade encryption",
       "Multi-channel operation",
@@ -71,14 +73,14 @@ export const products = [
       "Compact and ruggedized design",
       "NATO standard compatibility",
     ],
-    specifications: {
-      "Frequency Range": "30-512 MHz",
-      Encryption: "AES-256",
-      Channels: "32",
-      Weight: "3.5kg",
-      Dimensions: "25cm x 18cm x 8cm",
-      "Battery Life": "24 hours continuous operation",
-    },
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
     storyline: {
       title: "Securing the Future of Communication",
       subtitle: "The CM-200's Journey from Concept to Critical Infrastructure",
@@ -116,7 +118,8 @@ export const products = [
       "Intelligent railway signaling system for improved safety and efficiency. This comprehensive system integrates advanced sensors, real-time monitoring, and automated controls to ensure the safe and efficient operation of railway networks. Designed to meet international safety standards, our system significantly reduces the risk of accidents while optimizing traffic flow.\n\nKey Features:\n- Real-time train position monitoring\n- Automatic train protection\n- Centralized traffic management\n- Predictive maintenance capabilities\n- Scalable architecture\n- Redundant safety systems\n\nOur Railway Signaling System has been implemented in major railway networks across Asia and Europe, demonstrating its reliability and effectiveness in diverse operational environments.",
     image: "/models/low_poly_toon_plane.glb",
     price: 120000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time train position monitoring",
       "Automatic train protection",
@@ -125,14 +128,14 @@ export const products = [
       "Scalable architecture",
       "Redundant safety systems",
     ],
-    specifications: {
-      "Control Range": "Up to 500km of track",
-      "Response Time": "<100ms",
-      "Safety Integrity Level": "SIL4",
-      "Operating Temperature": "-40°C to +70°C",
-      "Power Consumption": "2.5kW average",
-      Compliance: "CENELEC standards",
-    },
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
     storyline: {
       title: "Revolutionizing Rail Safety and Efficiency",
       subtitle: "The Journey of Our Railway Signaling System",
@@ -168,9 +171,10 @@ export const products = [
     category: "Energy",
     description:
       "Comprehensive energy management solution for industrial applications. Our Smart Energy Management system optimizes energy consumption, reduces operational costs, and minimizes environmental impact. Using advanced analytics and AI, the system continuously monitors energy usage patterns and automatically adjusts settings to achieve optimal efficiency.\n\nKey Features:\n- Real-time energy monitoring\n- AI-driven optimization\n- Peak demand management\n- Renewable energy integration\n- Detailed analytics and reporting\n- Remote management capabilities\n\nImplementing our Smart Energy Management system typically results in 15-30% reduction in energy costs while improving operational reliability and reducing carbon footprint.",
-    image: "/models/low_poly_toon_plane.glb",
+    image: "/models/free_stylized_man_armor_game_ready.glb",
     price: 85000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time energy monitoring",
       "AI-driven optimization",
@@ -179,14 +183,14 @@ export const products = [
       "Detailed analytics and reporting",
       "Remote management capabilities",
     ],
-    specifications: {
-      "Monitoring Points": "Up to 5000",
-      "Data Sampling Rate": "1Hz",
-      "Analysis Algorithms": "Machine learning & predictive",
-      "User Interface": "Web-based dashboard",
-      Integration: "APIs for major industrial systems",
-      "Data Storage": "Cloud-based with local backup",
-    },
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
     storyline: {
       title: "Powering a Sustainable Future",
       subtitle: "The Evolution of Smart Energy Management",
@@ -224,7 +228,8 @@ export const products = [
       "Autonomous surveillance drone with advanced imaging capabilities. The X-Wing tactical drone provides real-time intelligence, surveillance, and reconnaissance in challenging environments. With extended flight time and sophisticated sensor packages, it delivers critical information to operators while maintaining a low acoustic and visual signature.\n\nKey Features:\n- 4-hour flight endurance\n- Encrypted data transmission\n- Thermal and optical imaging\n- Autonomous mission execution\n- Rapid deployment capability\n- Weather-resistant design\n\nThe X-Wing has been field-tested in diverse operational scenarios and proven to be a reliable asset for security forces and defense organizations worldwide.",
     image: "/models/low_poly_toon_plane.glb",
     price: 95000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "4-hour flight endurance",
       "Encrypted data transmission",
@@ -233,14 +238,14 @@ export const products = [
       "Rapid deployment capability",
       "Weather-resistant design",
     ],
-    specifications: {
-      Range: "50km",
-      "Max Speed": "120km/h",
-      "Payload Capacity": "2.5kg",
-      Weight: "8kg",
-      Dimensions: "1.2m x 1.2m x 0.3m",
-      "Operating Temperature": "-20°C to +50°C",
-    },
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
     storyline: {
       title: "Eyes in the Sky: The X-Wing Story",
       subtitle: "From Concept to Critical Missions",
@@ -279,7 +284,8 @@ export const products = [
       "High-bandwidth satellite communication system for remote operations. This terminal provides reliable connectivity in areas without conventional telecommunications infrastructure. Designed for rapid deployment and ease of use, it enables high-speed data transfer, voice communications, and video conferencing in challenging environments.\n\nKey Features:\n- Auto-acquiring satellite link\n- High-throughput data transfer\n- Multiple frequency band support\n- Ruggedized for field operations\n- Simple user interface\n- Low power consumption\n\nOur Satellite Communication Terminal is trusted by humanitarian organizations, remote industrial operations, and defense forces for mission-critical communications worldwide.",
     image: "/models/low_poly_toon_plane.glb",
     price: 180000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Auto-acquiring satellite link",
       "High-throughput data transfer",
@@ -288,14 +294,14 @@ export const products = [
       "Simple user interface",
       "Low power consumption",
     ],
-    specifications: {
-      "Data Rate": "Up to 100Mbps",
-      "Frequency Bands": "Ku, Ka, X",
-      "Antenna Size": "1.2m",
-      "Setup Time": "<10 minutes",
-      Weight: "45kg (transportable)",
-      "Power Consumption": "350W typical",
-    },
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
     storyline: {
       title: "Connecting the Unconnected",
       subtitle: "The Satellite Communication Terminal Journey",
@@ -333,7 +339,8 @@ export const products = [
     description: "AI-powered traffic management system for urban environments",
     image: "/models/low_poly_toon_plane.glb",
     price: 135000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time traffic monitoring",
       "Adaptive signal control",
@@ -342,23 +349,53 @@ export const products = [
       "Environmental impact reduction",
       "Comprehensive data analytics",
     ],
-    specifications: {
-      "Monitoring Capacity": "Up to 500 intersections",
-      "Response Time": "<1 second",
-      "AI Processing": "Edge and cloud computing",
-      Integration: "Compatible with existing infrastructure",
-      "Data Storage": "Secure cloud with local backup",
-      "User Interface": "Web-based control center",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 8,
     name: "Solar Power Integration System",
     category: "Energy",
-    description: "Complete solution for integrating solar power into existing infrastructure",
+    description:
+      "Complete solution for integrating solar power into existing infrastructure",
     image: "/models/low_poly_toon_plane.glb",
     price: 110000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Modular design for scalability",
       "Advanced power conversion",
@@ -367,23 +404,53 @@ export const products = [
       "Remote monitoring and control",
       "Predictive maintenance",
     ],
-    specifications: {
-      "Capacity Range": "10kW to 1MW",
-      "Conversion Efficiency": ">98%",
-      "Storage Options": "Lithium-ion, flow battery",
-      Monitoring: "Cloud-based with mobile app",
-      "Installation Time": "1-4 weeks depending on size",
-      Warranty: "10 years standard",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 9,
     name: "Perimeter Defense Systemss",
     category: "Defense",
-    description: "Integrated security system for critical infrastructure protection",
+    description:
+      "Integrated security system for critical infrastructure protection",
     image: "/models/low_poly_toon_plane.glb",
     price: 215000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Multi-sensor fusion technology",
       "AI-powered threat detection",
@@ -392,23 +459,53 @@ export const products = [
       "All-weather operation",
       "Low false alarm rate",
     ],
-    specifications: {
-      Coverage: "Up to 20km perimeter",
-      "Detection Range": "10-500m (depending on sensor)",
-      "Response Time": "<2 seconds",
-      "False Alarm Rate": "<1%",
-      "Power Requirements": "Mains with battery backup",
-      "Operating Conditions": "-40°C to +65°C",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 10,
     name: "5G Network Infrastructure",
     category: "Telecommunications",
-    description: "Complete 5G network deployment solution for urban and rural areas",
+    description:
+      "Complete 5G network deployment solution for urban and rural areas",
     image: "/models/low_poly_toon_plane.glb",
     price: 320000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Scalable architecture",
       "Virtualized network functions",
@@ -417,23 +514,53 @@ export const products = [
       "Spectrum efficiency optimization",
       "Future-proof upgrade path",
     ],
-    specifications: {
-      Capacity: "Up to 10,000 simultaneous users per cell",
-      Latency: "<5ms",
-      Bandwidth: "Up to 10Gbps",
-      "Frequency Support": "Sub-6GHz and mmWave",
-      "Power Efficiency": "30% better than industry standard",
-      "Deployment Time": "50% faster than traditional methods",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 11,
     name: "Autonomous Train Control",
     category: "Transportation",
-    description: "Next-generation autonomous control system for railway operations",
+    description:
+      "Next-generation autonomous control system for railway operations",
     image: "/models/low_poly_toon_plane.glb",
     price: 275000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Fully autonomous operation capability",
       "Precision stopping and acceleration",
@@ -442,23 +569,53 @@ export const products = [
       "Remote monitoring and intervention",
       "Seamless integration with existing signaling",
     ],
-    specifications: {
-      "Safety Integrity Level": "SIL4",
-      "Positioning Accuracy": "<10cm",
-      "Reaction Time": "<0.1 seconds",
-      "Energy Savings": "Up to 15%",
-      "Operational Modes": "GoA 1-4 (all automation levels)",
-      "Regulatory Compliance": "CENELEC, IEEE standards",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 12,
     name: "Microgrid Controller",
     category: "Energy",
-    description: "Advanced control system for managing distributed energy resources",
+    description:
+      "Advanced control system for managing distributed energy resources",
     image: "/models/low_poly_toon_plane.glb",
     price: 95000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time load balancing",
       "Renewable energy prioritization",
@@ -467,23 +624,53 @@ export const products = [
       "Demand response capabilities",
       "Comprehensive monitoring and analytics",
     ],
-    specifications: {
-      "Control Capacity": "Up to 5MW",
-      "Response Time": "<100ms",
-      "Energy Sources": "Solar, wind, battery, diesel, grid",
-      Communication: "Modbus, DNP3, IEC 61850",
-      "User Interface": "Web-based dashboard",
-      Redundancy: "N+1 configuration available",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 13,
     name: "Underwater Surveillance System",
     category: "Defense",
-    description: "Sonar-based detection system for maritime security applications",
+    description:
+      "Sonar-based detection system for maritime security applications",
     image: "/models/low_poly_toon_plane.glb",
     price: 185000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Long-range detection capabilities",
       "Automatic target recognition",
@@ -492,23 +679,53 @@ export const products = [
       "Minimal maintenance requirements",
       "Scalable for different deployment sizes",
     ],
-    specifications: {
-      "Detection Range": "Up to 3km",
-      "Depth Rating": "300m",
-      "Target Classification": "Divers, UUVs, marine mammals",
-      "Power Requirements": "24V DC or 110/220V AC",
-      "Data Output": "Ethernet, fiber optic",
-      "Operating Life": ">5 years with minimal maintenance",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 14,
     name: "Emergency Response Network",
     category: "Telecommunications",
-    description: "Resilient communication network for disaster response scenarios",
+    description:
+      "Resilient communication network for disaster response scenarios",
     image: "/models/low_poly_toon_plane.glb",
     price: 145000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Rapid deployment capability",
       "Self-contained power supply",
@@ -517,23 +734,53 @@ export const products = [
       "Intuitive operation under stress",
       "Interoperability with existing systems",
     ],
-    specifications: {
-      "Deployment Time": "<30 minutes",
-      "Coverage Area": "Up to 5km radius",
-      "User Capacity": "250 simultaneous users",
-      "Power Autonomy": "72 hours standard",
-      Transport: "Vehicle-mounted or air-droppable",
-      "Environmental Rating": "IP67, MIL-STD-810G",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 15,
     name: "Airport Navigation System",
     category: "Transportation",
-    description: "Precision navigation and guidance system for airport operations",
+    description:
+      "Precision navigation and guidance system for airport operations",
     image: "/models/low_poly_toon_plane.glb",
     price: 230000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "All-weather operation capability",
       "Real-time aircraft tracking",
@@ -542,23 +789,53 @@ export const products = [
       "Integration with air traffic control",
       "Comprehensive data recording",
     ],
-    specifications: {
-      "Positioning Accuracy": "<1m",
-      "Update Rate": "1Hz",
-      Coverage: "Entire airport surface",
-      "Visibility Operation": "Zero visibility capable",
-      "Regulatory Compliance": "ICAO, FAA, EASA standards",
-      Reliability: "99.99% uptime",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 16,
     name: "Industrial Energy Optimizer",
     category: "Energy",
-    description: "AI-driven system for optimizing energy usage in manufacturing facilities",
+    description:
+      "AI-driven system for optimizing energy usage in manufacturing facilities",
     image: "/models/low_poly_toon_plane.glb",
     price: 125000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time energy monitoring",
       "Machine learning optimization",
@@ -567,23 +844,53 @@ export const products = [
       "Comprehensive reporting",
       "Easy integration with existing systems",
     ],
-    specifications: {
-      "Monitoring Points": "Up to 10,000",
-      "Data Processing": "Edge and cloud computing",
-      "Energy Savings": "15-25% typical",
-      "ROI Period": "12-24 months typical",
-      Integration: "OPC-UA, Modbus, BACnet, proprietary",
-      "User Interface": "Web-based with mobile access",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 17,
     name: "Cybersecurity Defense Suite",
     category: "Defense",
-    description: "Comprehensive cybersecurity solution for critical infrastructure",
+    description:
+      "Comprehensive cybersecurity solution for critical infrastructure",
     image: "/models/low_poly_toon_plane.glb",
     price: 195000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time threat monitoring",
       "Anomaly detection and prevention",
@@ -592,23 +899,53 @@ export const products = [
       "Incident response automation",
       "Compliance management",
     ],
-    specifications: {
-      "Protection Scope": "IT and OT networks",
-      "Threat Intelligence": "Real-time updates",
-      "Detection Time": "<5 seconds for known threats",
-      "False Positive Rate": "<0.1%",
-      Compliance: "NERC CIP, IEC 62443, NIST",
-      "Deployment Options": "On-premises or hybrid cloud",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 18,
     name: "IoT Gateway Platform",
     category: "Telecommunications",
-    description: "Secure gateway for industrial IoT device management and data collection",
+    description:
+      "Secure gateway for industrial IoT device management and data collection",
     image: "/models/low_poly_toon_plane.glb",
     price: 85000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Multi-protocol support",
       "Edge computing capability",
@@ -617,23 +954,53 @@ export const products = [
       "Offline operation mode",
       "Scalable architecture",
     ],
-    specifications: {
-      "Device Connectivity": "Up to 500 devices per gateway",
-      Protocols: "Modbus, MQTT, OPC-UA, BACnet, Zigbee, LoRa",
-      Security: "TLS 1.3, certificate management",
-      Processing: "Quad-core ARM processor",
-      Storage: "32GB industrial grade",
-      "Environmental Rating": "IP65, -40°C to +70°C",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 19,
     name: "Maritime Traffic Management",
     category: "Transportation",
-    description: "Integrated system for monitoring and managing maritime vessel traffic",
+    description:
+      "Integrated system for monitoring and managing maritime vessel traffic",
     image: "/models/low_poly_toon_plane.glb",
     price: 165000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time vessel tracking",
       "Traffic flow optimization",
@@ -642,23 +1009,53 @@ export const products = [
       "Historical data analysis",
       "Weather integration",
     ],
-    specifications: {
-      "Coverage Range": "Up to 50 nautical miles",
-      "Tracking Capacity": "1000+ vessels simultaneously",
-      "Data Sources": "Radar, AIS, CCTV, VHF",
-      "Update Rate": "2-10 seconds",
-      Compliance: "IALA, IMO standards",
-      Availability: "99.9% uptime",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
   {
     id: 20,
     name: "Wind Farm Management System",
     category: "Energy",
-    description: "Complete solution for optimizing wind farm operations and maintenance",
+    description:
+      "Complete solution for optimizing wind farm operations and maintenance",
     image: "/models/low_poly_toon_plane.glb",
     price: 140000,
-    videoUrl: "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
+    videoUrl:
+      "https://www.youtube.com/embed/V_Btofw8dLI?si=3Sz55VDJxsXCfI7Q&controls=0&autoplay=1&mute=0&loop=1&playlist=V_Btofw8dLI",
     features: [
       "Real-time performance monitoring",
       "Predictive maintenance",
@@ -667,13 +1064,41 @@ export const products = [
       "Environmental compliance",
       "Comprehensive reporting",
     ],
-    specifications: {
-      "Turbine Compatibility": "All major manufacturers",
-      Monitoring: "SCADA integration, 10-second updates",
-      Analytics: "AI-based performance and failure prediction",
-      "Production Increase": "3-8% typical",
-      "Maintenance Savings": "15-25% typical",
-      "User Interface": "Web-based with mobile access",
+    specifications: [
+      { label: "Control Range", value: "Up to 500km of track" },
+      { label: "Response Time", value: "<100ms" },
+      { label: "Safety Integrity Level", value: "SIL4" },
+      { label: "Operating Temperature", value: "-40°C to +70°C" },
+      { label: "Power Consumption", value: "2.5kW average" },
+      { label: "Compliance", value: "CENELEC standards" },
+    ],
+       storyline: {
+      title: "The Evolution of Modern Radar Technology",
+      subtitle: "How the X-500 is Redefining Defense Capabilities",
+      chapters: [
+        {
+          title: "Origins",
+          content:
+            "The X-500 Radar System was born from a decade of research into advanced electromagnetic wave propagation and signal processing. Our team of engineers, led by Dr. Elena Vasquez, sought to overcome the limitations of traditional radar systems, particularly in adverse weather conditions and against stealth targets.",
+        },
+        {
+          title: "Breakthrough",
+          content:
+            "The breakthrough came in 2018 when our research team developed a proprietary algorithm that could distinguish between environmental noise and actual targets with unprecedented accuracy. This innovation, combined with our advanced antenna design, created a system that could detect objects at ranges previously thought impossible.",
+        },
+        {
+          title: "Field Testing",
+          content:
+            "The X-500 underwent rigorous testing in some of the world's most challenging environments - from Arctic conditions to tropical storms. During these tests, it consistently outperformed existing systems, maintaining detection capabilities even in severe electromagnetic interference and against low-observable targets.",
+        },
+        {
+          title: "Impact",
+          content:
+            "Today, the X-500 serves as the backbone of modern integrated air defense systems across three continents. Its deployment has significantly enhanced the security posture of our partner nations, providing early warning capabilities that have already prevented several potential incidents in contested airspaces.",
+        },
+      ],
+      conclusion:
+        "The X-500 represents not just a technological achievement, but a new paradigm in how we approach defense monitoring and response. As threats evolve, so too will the X-500, with our commitment to continuous improvement ensuring it remains at the cutting edge of radar technology for decades to come.",
     },
   },
-]
+];
